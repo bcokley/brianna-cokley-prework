@@ -1,0 +1,87 @@
+<!DOCTYPE html> 
+<html>
+ <head>
+    <meta charset="UTF-8"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge"> 
+   <title> 2 boxes CSS</title>
+   <style>
+    
+        body {background-color:floralwhite;}
+
+        nav { position:fixed;
+            background-color:gray;
+            width:100%;
+            height: 20px;
+            text-align: center;
+            top:0px;
+            left: 0px;
+            margin-top: 0px;
+
+        }
+    
+        div#one {position:absolute, left;
+        box-sizing:content-box;
+        background-color:blue;
+        display: inline-block;
+        text-align:center;
+        line-height:400px;
+        width:620px;
+        height:400px;
+        padding-left:50px;
+        padding-right:0px;
+        margin: 50px;
+        margin-left:0px;
+        margin-right: 0px;
+        float:none;}
+    
+        div#two {position:absolute, right;
+        box-sizing:border-box;
+        background-color:red;
+        text-align:center;
+        line-height: 400px;
+        width:300px;
+        height:400px;
+        padding-left:50px;
+        padding-right:50px;
+        margin: 50px;
+        margin-right: 0px;
+        float:right;} 
+
+        footer {position:fixed;
+        background-color:green;
+        text-align:center;
+        height:20px;
+        width:100%;
+        bottom: 0px;
+        left: 0px;
+        
+        }
+     </style>
+   </head>
+   <body>
+<nav>Nav</nav> 
+
+<div id="one">Left</div>
+<div id="two">Right</div>
+
+<footer>Footer</footer>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+
+
+
+</html>
