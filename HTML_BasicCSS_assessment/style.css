@@ -1,0 +1,29 @@
+body {
+  background-color:#3BB3C7;
+  margin: 0;
+  line-height: 1.5;
+  text-transform: uppercase;
+}
+
+
+.text { font-family: calibri;
+         color:white;
+
+}
+
+.letter{font-family:calibri;
+color:black;
+text-align:center;
+}
+div#main {
+  padding: 70px 0;
+  text-align: center;
+}
+
+div#white{padding:0;
+  text-align: center;
+  width: 110px;
+  margin: auto;
+  border: 1px solid white;
+
+}
